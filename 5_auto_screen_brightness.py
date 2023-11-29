@@ -23,6 +23,7 @@ from screen_brightness_control import set_brightness, get_brightness
 11. Save the brightness levels dictionary to a file and load it on startup.
 12. Add a button to reset the brightness levels dictionary to default.
 13. If the brightness levels dictionary is not found, create it with default values.
+14. Update the brightness ratio logic to use PERCEIVED BRIGHTNESS instead of the sum of r, g, b.
 """
 
 
