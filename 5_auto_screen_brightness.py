@@ -7,6 +7,25 @@ import tkinter as tk
 from PIL import ImageGrab
 from screen_brightness_control import set_brightness, get_brightness
 
+"""
+Packages required:
+1. numpy
+2. opencv-python
+3. Pillow
+4. screen-brightness-control
+5. tkinter
+"""
+
+
+"""
+ONLY USE THIS PROGRAM IF IT IS OF ABSOLUTE NECESSITY.
+THIS PROGRAM IS NOT RECOMMENDED FOR REGULAR USE.
+
+***CAUTION: THIS PROGRAM MAY CAUSE PERMANENT DAMAGE TO YOUR DISPLAY. IT MAY NOT BE IMMEDIATE, BUT IT WILL HAPPEN EVENTUALLY AS THE DISPLAY IS MADE TO HANDLE A SET NUMBER OF BRIGHTNESS CHANGES IN ITS LIFETIME. THIS PROGRAM MAY CAUSE THE DISPLAY TO EXCEED THAT NUMBER OF BRIGHTNESS CHANGES. THIS MAY CAUSE THE DISPLAY TO MALFUNCTION OR EVEN PERMANENTLY DAMAGE THE DISPLAY.***
+
+This program is a proof of concept for automatically adjusting the screen brightness based on the brightness of the screen content.
+"""
+
 
 # Features to be added(29-11-2023):
 """
@@ -29,6 +48,8 @@ from screen_brightness_control import set_brightness, get_brightness
 
 # Inputs from Chatgpt on 29-11-2023:
 """
+Add these:
+
 1. Magic Numbers:
 Replace the magic number 75 in the get_brightness_ratio method with a named constant or a class variable for better readability.
 Consider making total_no_of_brightness_keys a class variable if it is not intended to be changed.
