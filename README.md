@@ -39,11 +39,17 @@ To ensure a clean and isolated environment, it's recommended to use a virtual en
         source env/bin/activate
         ```
 
-3. Install the required Python packages:
+3. Install the required Python packages (run any one of the following commands inside the activated environment):
 
     ```bash
     pip install numpy opencv-python Pillow screen-brightness-control tk
     ```
+
+    OR
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 This will create a separate environment for your project, preventing conflicts with other projects and ensuring a clean setup.
 
@@ -92,7 +98,7 @@ This will create a separate environment for your project, preventing conflicts w
 Please use this script with caution and provide feedback for improvements. Contributions are welcome!
 
 Author
-[Sushil Subhash Maurya]
+[Sushil Maurya]
 
 Date
 27-11-2023
